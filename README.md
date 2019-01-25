@@ -12,6 +12,7 @@ composer require jetea/exception=~2.0 -vvv
 1. vim index.php
 
    ```
+   <?php
    require __DIR__ . '/vendor/autoload.php';
    
    $handler = new \Jetea\Exception\Handler();
